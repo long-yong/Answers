@@ -1,7 +1,9 @@
-///////////   common functions   //////////
+//  author: Yong Long
+
+// common functions
 
 function isInteger(obj) {
-    return typeof obj === "number" && obj % 1 === 0
+    return typeof obj === "number" && obj % 1 === 0;
 }
 
 function isText(obj) {
